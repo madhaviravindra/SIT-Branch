@@ -24,7 +24,7 @@ public class LoginToGmail
 		driver.findElement(By.name("password")).sendKeys("Ravindradfjkh");
 		driver.findElement(By.id("passwordNext")).click();
 		driver.findElement(By.linkText("SIGN-ON")).click();
-		System.out.println("I have chnaged my gmail");
+		System.out.println("I have chnaged my gmail in GIT storage");
 	}
 	public static void main(String[] args) throws InterruptedException
 	{
